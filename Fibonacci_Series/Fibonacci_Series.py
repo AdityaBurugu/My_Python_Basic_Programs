@@ -15,7 +15,7 @@ else:
    print(N1,",",N2,end=', ')
    while count < Number_of_Terms:
        Nth = N1 + N2
-       print(Nth,end=' , ')
+       print(Nth,end=', ')
        # update values
        N1,N2 = N2,Nth
        count += 1

@@ -1,5 +1,6 @@
 def Celsius_to_Fahrenheit(x):
-    print(x, 'Celsius =', (x * 1.8) + 32 // 1, 'Fahrenheit')
+    calculate = ((x * 1.8) + 32) //1
+    print(x, 'Celsius =', calculate , 'Fahrenheit')
 
 while 1 :
     x = float(input('Celsius = '))
